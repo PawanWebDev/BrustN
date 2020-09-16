@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+}
+
+.header{
+	height: 100vh;
+	width: 100vw;
+	background-size: 100% 100%;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.65) 100%, red 0%), url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+}
+
+.navbar{
+	height: 13%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navbar *{
+	text-decoration: none;
+}
+
+.sitehead{
+	padding: 0.1rem 0.4rem;
+	border: 2px solid white;
+}
+
+.navbtn{
+	margin-right: 2.5rem;
+	padding: 0.4rem;
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+	transition: 0.2s border-bottom linear;
+}
+
+.navbtn:hover{
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.others{
+	height: 87%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-left: 4.2rem;
+}
+
+.supportbtn{
+	padding: 0.9rem 2rem;
+	border: 1px solid white;
+	background: transparent;
+	border-radius: 2rem;
+	width: 11%;
+	font-size: 01rem;
+	outline: none;
+	transition: 0.2s background-color linear;
+	margin-top: 1rem;
+}
+
+
+.supportbtn:hover{
+	background: white;
+	color: black;
+	cursor: pointer;
+}
